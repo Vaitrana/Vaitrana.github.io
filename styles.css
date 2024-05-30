@@ -39,7 +39,7 @@
     padding-left: 20px;
   }
   
-  .title, right-side {
+  .title {
     padding-bottom: 10px;
     border-bottom: 1px solid #fff;
     font-size: 24px;
@@ -55,7 +55,7 @@
     list-style: none;
   }
   
-  .content li,.right-side li  {
+  .content li,.right-side li, .content-title  {
     margin-bottom: 10px;
   }
   
@@ -66,7 +66,7 @@
   .left-side-content-item_languages .content .content-text {
     margin-left: auto;
   }
-  
+
   .content-text a{
     text-decoration: none;
     color: inherit;
