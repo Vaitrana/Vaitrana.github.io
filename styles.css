@@ -67,7 +67,7 @@
     margin-left: auto;
   }
 
-  .content-text a{
+  .content-text, .right-side, a{
     text-decoration: none;
     color: inherit;
   }
@@ -78,6 +78,7 @@
 
   .font-bold {
     font-weight: bold;
+    display: flex;
   }
   
 
