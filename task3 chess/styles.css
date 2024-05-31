@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: auto 0;
+    background-color: rgba(43, 39, 40, 0.645);
+    
+}
+td{
+    height: 67px;
+    width: 67px;
+    font-size: 53px;
+    text-align: center;
+    
+}
+
+td:hover{
+    position: absolute;
+    font-size: 55px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: rgb(226, 209, 209);
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even){
+    background-color: rgb(197, 146, 135);
+}
+

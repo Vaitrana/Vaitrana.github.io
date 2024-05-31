@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0; /* Mistake */
+    font-family: Arial, sans-serif;
+}
+.myblock {    /* Mistake */
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 30px;  /* Mistake */
+}
+.lemon { /* Mistake */
+    width: 180px;
+    height: 180px;
+    margin: 10px; /* Mistake 10px */
+    background: url(https://cdn4.iconfinder.com/data/icons/Limon_iContainer/512/Grapefruit.png);/* Mistake */
+    background-size: contain;/* Mistake */
+    background-position: 50%;/* Mistake */
+    border-radius: 5px/* Mistake */;
+    float: left;
+} /* Mistake */
+
+.about-lemon h3 {
+    text-align: center;/* Mistake */
+    padding: 10px 0;/* Mistake */
+}
+.about-lemon p {
+    font-size: 12px;/* Mistake */
+    line-height: 150%;/* Mistake */
+    margin: 20px 0;
+}

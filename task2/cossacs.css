@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}/* Mistake */
+
+html, body {
+    font-family: 'Exo 2', sans-serif;/* Mistake */
+}
+.wrap/* Mistake */ {
+    width: 350px;/* Mistake */
+    margin: 40px auto;
+    border: 1px solid #c0c0c0;/* Mistake */
+    padding: 20px;/* Mistake */
+    border-radius: 4px;/* Mistake */
+}/* Mistake */
+h1 {/* Mistake */
+    font-size: 30px;/* Mistake */
+    text-align: center;/* Mistake */
+    margin-bottom: 20px;/* Mistake */
+}
+img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;/* Mistake */
+    border-radius: 300px;/* Mistake */
+    box-shadow: 0 0 10px #454545;
+}
+p {
+    font-size: 13px;/* Mistake */
+    line-height: 150%;/* Mistake */
+    margin: 5px 0;/* Mistake */
+    padding: 5px;/* Mistake */
+}
+.info/* Mistake */ {
+    text-align: center;/* додати  */
+    border-bottom: 1px solid #c0c0c0;/* Mistake */
+    padding: 10px;
+}
+.side {
+    font-weight:bold;/* додати bold  */
+    width: 180px;/* Mistake */
+    display: inline-block;
+}
+p:nth-child(even) /* додати even */ {
+    background: #ececec;
+}
