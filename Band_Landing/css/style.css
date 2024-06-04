@@ -1,0 +1,88 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    color:white;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 300px;
+    background: url(/Band_Landing/img/bg-01.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+header #topbar .container{
+    background-color: rgb(4, 3, 3, 0.5);
+    
+}
+header .container,#topbar .container{
+    padding: 0 200px 0 200px;
+}
+
+.menu{
+    display: flex;
+    height: 50px;   
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+    text-align: center;
+}
+a{
+    display:block;
+    text-decoration: none;
+    color: inherit;
+}
+
+header .container .button,h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+header .container .button{
+    
+    padding: 10px;
+    background-color: rgb(145, 122, 126);
+}
+
+
+/* Tour */
+
+
+
+/* Gallery */
+
+
+
+/* Subscribe */
+
+
+
+/* Footer */
+
+
