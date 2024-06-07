@@ -83,14 +83,56 @@ header .container .button{
     margin: 44px auto 0;
     padding: 20px 0 20px 0;
     text-transform: uppercase;
-    background-color: rgb(67, 9, 19);
+    background: rgb(215,27,27);
+    background: linear-gradient(90deg, rgba(215,27,27,1) 0%, rgba(235,81,81,1) 60%, rgba(255,162,162,1) 100%);
 }
 
 
 /* Tour */
 
-#tour{
+
+#tour .container:nth-of-type(1){
+    display:flex;
+    justify-content: center;
+    padding: auto 0;
+    flex-wrap: wrap;
+    gap: 35px 20px;
     
+   
+}
+#tour .container:nth-of-type(1) h2{
+    width: 100%;
+    margin-top: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px
+}
+.tour-card{
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    height: 210px;
+    line-height: 25px;
+    padding: 40px 10px 0px 10px;
+    background-image: url(/Band_Landing/img/tour/madrid.jpg);
+    background-size: cover;
+    background-position-y: -15px;
+}
+#tour .container:nth-of-type(1) h3{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.tour-date{
+    font-style: italic;
+}
+#tour .container:nth-of-type(1) .button{
+    width: 180px;
+    margin: 20px auto 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(215,27,27);
+background: linear-gradient(90deg, rgba(215,27,27,1) 0%, rgba(235,81,81,1) 60%, rgba(255,162,162,1) 100%);
 }
 
 /* Gallery */
@@ -102,5 +144,9 @@ header .container .button{
 
 
 /* Footer */
+
+
+/* Global styles */
+
 
 
