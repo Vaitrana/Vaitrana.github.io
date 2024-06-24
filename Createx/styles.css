@@ -1,0 +1,258 @@
+/* Mobile-first styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    
+    color: #000;
+   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+   
+}
+.header {
+    height: 100vh;
+    background:var(--main-color);
+    
+    padding: 1rem;
+    position: relative;
+    z-index: 1000;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+#menuIcons {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#menuClose.d-none {
+    display: none;
+}
+li a{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    z-index: 1001;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.main-menu li a:hover{
+    color: #5a524c;
+    
+}
+
+.main-menu li {
+    margin: 1rem 0;
+}
+
+.main-menu a {
+    color: black; /* Black text color */
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.main-menu .close-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+}
+
+.show {
+    transform: translateX(0);
+}
+
+.btn{
+    padding: 10px;
+    background: linear-gradient(135deg, #FF7E5F, #FEB47B);
+}
+.icon{
+    font-size: 20px;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0;
+} 
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.play-wrap{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header .right-side{
+    width: 300px;
+    text-align: center;
+}
+header .right-side img{
+    margin-top: 20px;
+    width: 100%;
+   
+    background-repeat: no-repeat;
+    
+}
+.buttons-wrap{
+    display: flex;
+}
+.left-side .btn-border{
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #FF7E5F ;
+    border-radius: 5px;
+    color:#FF7E5F ;
+}
+
+.statistic-wrap ul li{
+    
+    font-size: 16px;   
+}
+.statistic-wrap ul li strong{
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+.circle{
+    margin:10px  auto 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color:#FF7E5F;
+}
+section{
+    margin: 100px 10px 0;
+
+}
+
+
+
+/* Desktop styles */
+@media (min-width: 1024px) and (max-width: 1600px) {
+   .container{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       gap: 100px;
+   } 
+   .left-side{
+       display: flex;
+       align-items: flex-start;
+       
+   }
+   h1{
+       width: 400px;
+       margin: 20px 0;
+       font-size: 54px;
+   }
+   
+  nav{
+      margin: 0 200px;
+  }
+   .content{
+       
+        margin: 0 200px;
+   
+   }
+   .statistic-wrap{
+       width: 100%;
+   }
+   .statistic-wrap li{
+       display: flex;
+       align-items: center;
+      
+   }
+   .statistic-wrap li .circle{
+    margin: 0 70px;
+    
+   }
+   
+   ul{
+    display: flex;
+    padding: 0;
+   }
+   section{
+    margin: 100px 200px 0;
+
+}
+}
+
+
+
+@media (min-width: 996px) {
+    .main-menu {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        background: none;
+        justify-content: flex-end;
+        transform: translateX(0);
+        transition: none;
+    }
+
+    .main-menu li {
+        margin: 0 1rem;
+    }
+
+    #menuIcons {
+        display: none;
+    }
+
+    .main-menu .close-menu {
+        display: none;
+    }
+    .container{
+        margin-top: 50px;
+    }
+    header .right-side img{
+    
+        width: 302px;
+        height: 251px;
+        background-repeat: no-repeat;
+        background-size: 450px;
+       }
+}

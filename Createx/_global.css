@@ -1,0 +1,59 @@
+.uppercase {
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+}
+
+.d-none {
+	display: none;
+}
+
+.hide-desktop {
+	display: none;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.content-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+.mt-40{
+	margin-top: 40px;
+}
+
+.bg-cover {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.t-center {
+	text-align: center;
+}
+.bg-white{
+	background-color: #fff;
+}
+.bg-red{
+	background-color: var(--main-color);
+}
+.color-white{
+	color: var(--color-white);
+}
+.baseline{
+	align-items: baseline;
+}
+
+@media (max-width: 1200px) {
+	.hide-desktop {
+		display: flex;
+	}
+}
