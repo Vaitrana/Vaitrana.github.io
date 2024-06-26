@@ -100,6 +100,7 @@ a{
 }
 
 .btn{
+    
     padding: 10px;
     background: linear-gradient(135deg, #FF7E5F, #FEB47B);
 }
@@ -125,7 +126,7 @@ a{
     gap: 5px;
 }
 header .right-side{
-    width: 300px;
+    
     text-align: center;
 }
 header .right-side img{
@@ -137,6 +138,7 @@ header .right-side img{
 }
 .buttons-wrap{
     display: flex;
+    
 }
 .left-side .btn-border{
     padding: 10px;
@@ -170,17 +172,69 @@ section{
 
 
 /* Desktop styles */
-@media (min-width: 1024px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1760px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    } 
+    nav{
+        margin: 0 15.563rem;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+         margin: 0 15.563rem;
+    
+    }
+    .right-side{
+        width: 502px;
+        height: 452px;
+    }
+    .right-side img{
+        display: flex;
+        width: 100%;
+        
+    }
+    h1{
+        width: 400px;
+        margin: 20px 0;
+        font-size: 54px;
+    }
+}
+
+
+
+@media (min-width: 1760px) and (max-width: 1920px) {
+    header{
+        height: 150vh;
+    }
    .container{
+       width: 100%;
        display: flex;
        flex-direction: row;
        justify-content: space-between;
-       align-items: center;
-       gap: 100px;
+       
    } 
    .left-side{
        display: flex;
        align-items: flex-start;
+       
+       
+   }
+   .left-side h1{
+       width: 496px;
+       font-size: 64px;
+   }
+   .right-side{
+       width: 602px;
+       height: 552px;
+   }
+   .right-side img{
+       display: flex;
+       width: 100%;
        
    }
    h1{
@@ -190,15 +244,21 @@ section{
    }
    
   nav{
-      margin: 0 200px;
+      margin: 0 21.563rem;
+  }
+  nav .logo{
+      display: flex;
+      align-items: center;
   }
    .content{
-       
-        margin: 0 200px;
+       display: flex;
+       justify-content: space-between;
+        margin: 0 21.563rem;
    
    }
    .statistic-wrap{
        width: 100%;
+       margin-top: 190px;
    }
    .statistic-wrap li{
        display: flex;
@@ -206,14 +266,30 @@ section{
       
    }
    .statistic-wrap li .circle{
-    margin: 0 70px;
+    margin: 0 6vw;
     
    }
    
    ul{
     display: flex;
     padding: 0;
+    align-items: flex-start;
    }
+   ul.main-menu {
+    
+    
+   }
+   .buttons{
+       
+       width: 300px;
+       margin-left: 270px;
+       
+   }
+   .buttons .btn{
+    margin-right: 10px;
+   }
+   
+
    section{
     margin: 100px 200px 0;
 
@@ -250,9 +326,8 @@ section{
     }
     header .right-side img{
     
-        width: 302px;
-        height: 251px;
+        
         background-repeat: no-repeat;
-        background-size: 450px;
+        
        }
 }
