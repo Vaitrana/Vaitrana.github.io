@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 100%;
+    background-color: rgb(187, 203, 226);
+}
+.wrap{
+    margin: 0 50px;
+}
+nav{
+
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(159, 171, 187);
+}
+ nav li{
+    display: none;
+}
+
+li, a{
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+.buttons-wrap .btn{
+   
+    padding: 10px 50px;
+    background-color: rgb(221, 153, 153);
+}
+header .container{
+    margin-top: 20px;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 90, 90);
+}
+.left-side{
+    text-align:center;
+    
+    background-color: rgb(204, 139, 109);
+}
+.left-side .buttons-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.right-side{
+    
+    width: 60%;
+    
+    background-color: rgb(145, 90, 23);
+    
+}
+.right-side img{
+    width: 100%;
+}
+.statistic-wrap{
+    display: flex;
+
+    height: 50px;
+    background-color: rgb(97, 93, 93);
+}
+.statistic-wrap ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+.statistic-wrap ul li{
+    display: flex;
+    
+    font-size: .65rem;
+}
+
+.circle{
+    width: 7px;
+    height: 7px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+/* ----------about-------------- */
+
+section {
+    margin-top: 100px;
+}
+
+
+.about ul li{
+    text-align: start;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.about ul li img{
+    margin-right: 10px;
+}
+
+.about .right-side{
+    margin: 0 auto;
+}
+
+/*----------------- courses----------------- */
+
+.courses .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+.courses .title .btn{
+    padding: 10px 50px;
+    background-color: rgb(221, 153, 153);
+}
+.courses .card-wrap .container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 340px;
+    max-height: 300px;
+
+}
+.courses .left-col .container{
+    
+    margin-bottom: 20px;
+}
+.courses .right-col .container{
+    margin-bottom: 20px;
+}
+
+.courses .left-side{
+    padding: 20px;
+}
+.courses .left-side .price{
+    padding-top: 20px;
+}
+.courses .left-side h3{
+    margin-top: 20px;
+}
+.courses .left-side p{
+    width: 80px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.courses .left-side h3 ,p{
+    font-size: 16px;
+}
+.courses .right-side img{
+    margin: 0 auto;
+    width: 150px;
+    
+}
+
+/*----------------- benefits----------------- */
+
+.benefits .info-section {
+    text-align: center;
+}
+.benefits p ,h3{
+    text-align: center;
+    background:none;
+}
+.button-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.benefits button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px;
+    background: inherit;
+    border: 1px solid orange;
+    border-radius: 5px;
+    
+}
+
+.info-content {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+   
+}
+
+.info-content.active {
+    display: block;
+}
+
+/*----------------- events----------------- */
+
+
+.events .container{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    text-align: center;
+    margin-top: 20px;
+}
+.events .item{
+    display: flex;
+    gap: 10px;
+}
+.events .item .number{
+    display: flex;
+    font-size: 40px;
+    color: orange;
+}
+.events .container .info{
+    display: flex;
+    flex-direction: column;
+}
+.events .item .date{
+    display: flex;
+    flex-direction: column;
+    
+}
+.events .container.btn{
+    margin-top: 10px;
+    gap: 30px;
+    justify-content: center;
+}
+.events .container .btn{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    background: inherit;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.events .container .btn:hover{
+    background-color: orange;
+}
+
+/*----------------- certificate----------------- */
+
+.certificate .right-side{
+    margin-top: 30px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+.certificate .left-side .icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*-----------------blog----------------- */
+
+.blog .container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.blog .meta{
+    
+    align-items: center;
+}
+.blog .right-side .img{
+    width: 100%;
+    height: 600px;
+}
+
+/*-----------------blog----------------- */
+
+.subscribe{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: pink;
+}
+.subscribe form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe form input{
+    margin-right: 20px;
+}
+.subscribe input{
+    width: 30%;
+    
+}
+.subscribe .title button{
+    width: 130px;
+    border: none;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) and (min-width: 992px) {
+    .wrap{
+        margin: 0 10%;
+    }
+    .link, .btn {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    
+    .logo{
+        margin-right: 20px;
+    }
+    ul{
+        display: flex;
+    }
+    ul .buttons-wrap{
+        display: flex;
+        
+    }
+    .buttons-wrap{
+        display: flex;
+    }
+    header .container {
+        flex-direction: row;
+    }
+
+    .left-side, .right-side {
+        flex: 1 1 45%;
+    }
+    .about .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        
+    }
+    .about .container .left-side{
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        margin: 0 2rem;
+        
+    }
+    .about .container .left-side ul{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .about h2, p{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .courses .title {
+        text-align: start; 
+    }
+    .courses .card-wrap{
+        height: 550px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    
+    }
+    .courses .left-col, .container{
+        margin-bottom: 20px;
+    }
+    .events .container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 20px;
+        background-color: rgb(255, 169, 169);
+        width: 100%;
+        height: 120px;
+    }
+    
+}
+
+

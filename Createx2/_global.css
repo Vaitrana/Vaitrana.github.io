@@ -1,0 +1,27 @@
+.uppercase {
+	text-transform: uppercase;
+}
+.fw-bold{
+	font-weight: bold;
+}
+.ta-center{
+	text-align: center;
+}
+.title{
+    text-align: center;
+}
+h2{
+	font-size: 2.5rem;
+}
+.bg-orange{
+	background-color: orange;
+}
+.bg-blue{
+	background-color: lightblue;
+}
+.bg-green{
+	background-color: lightgreen;
+}
+.bg-pink{
+	background-color: lightpink;
+}
